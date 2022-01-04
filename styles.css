@@ -3,7 +3,18 @@
   --main-text-color: #F3EDD7;
 }
 
+@font-face {
+  font-family: CooperHewitt;
+  /* font-weight: bold; */
+  src: url('./cooper-hewitt.heavy.otf') format('opentype');
+}
+
+
+
+
+
 html, body {
+  font-family: 'CooperHewitt';
   margin: 0;
   padding: 0;
   background-color: var(--main-bg-color);
