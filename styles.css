@@ -40,3 +40,6 @@ a:link {
 a:hover {
   color: lightgray;
 }
+a:visited {
+  color: #70848d;
+}
