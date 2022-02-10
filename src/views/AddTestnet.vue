@@ -1,8 +1,10 @@
 <template>
   <div class="add-testnet">
-    <button @click="register" :disabled="isConnected">
-      <span v-if="isConnected">Connected</span>
-      <span v-else>Connect</span>
+<!--    <button @click="register" :disabled="isConnected">-->
+    <button @click="register">
+      Connect
+<!--      <span v-if="isConnected">Connected</span>-->
+<!--      <span v-else>Connect</span>-->
     </button>
   </div>
 </template>
