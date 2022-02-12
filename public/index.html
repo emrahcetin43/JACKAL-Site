@@ -10,6 +10,15 @@
     <title>JACKAL - Alpha Feb 14 2022</title>
   </head>
   <body>
+
+  <!-- A little help for the Netlify post-processing bots -->
+  <form name="bug_report" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+      <input type="text" name="wallet" />
+      <input type="text" name="version" />
+      <input type="text" name="browser" />
+      <textarea name="desc"></textarea>
+  </form>
+
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
