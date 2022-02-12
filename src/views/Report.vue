@@ -1,6 +1,7 @@
 <template>
   <div class="report">
-    <form name="bug_report" method="POST" data-netlify="true">
+    <form name="bug_report" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="bug_report" />
       <p>
         <label>SCRT Wallet Address:</label>
         <br />
@@ -30,7 +31,12 @@
 
 <script>
 export default {
-  name: "Report"
+  name: "Report",
+  methods: {
+    handleSubmit() {
+      this.$router.push('thanks')
+    }
+  }
 }
 </script>
 
