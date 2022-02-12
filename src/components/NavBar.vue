@@ -7,6 +7,8 @@
       <span>::</span>
       <router-link to="/testnet">Keplr Testnet</router-link>
       <span>::</span>
+      <router-link to="/report">Report Bug</router-link>
+      <span>::</span>
       <a href="https://jackal-wiki.notion.site/jackal-wiki/JACKAL-Wiki-02cf967e0a10475983823645238b8852">Wiki</a>
       <span>::</span>
       <a href="https://discord.gg/5GKym3p6rj">Discord</a>
@@ -47,6 +49,11 @@ export default {
   align-items: center;
   justify-content: center;
 }
+/*.nav {*/
+/*  overflow-x: auto;*/
+/*  overflow-y: hidden;*/
+/*  white-space: nowrap;*/
+/*}*/
 
 a:link {
   color: #F3EDD7;
@@ -55,7 +62,7 @@ a:hover {
   color: lightgray;
 }
 a:visited {
-  color: #70848d;
+  color: #F3EDD7;
 }
 
 /*socials*/
