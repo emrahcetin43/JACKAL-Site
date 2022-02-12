@@ -1,8 +1,8 @@
 <template>
   <div class="app">
     <div class="wrapper">
-      <NavBar />
-      <router-view/>
+      <NavBar class="nav" />
+      <router-view class="view" />
     </div>
   </div>
 </template>
@@ -47,6 +47,14 @@ html, body {
   width: 100%;
   background-color: black;
   opacity: 0.90;
+}
+.nav {
+  height: 40px;
+  width: 100%;
+}
+.view {
+  height: calc(100% - 40px);
+  width: 100%;
 }
 
 </style>
