@@ -57,4 +57,14 @@ html, body {
   width: 100%;
 }
 
+a:link {
+  color: #F3EDD7;
+}
+a:hover {
+  color: lightgray;
+}
+a:visited {
+  color: #F3EDD7;
+}
+
 </style>
