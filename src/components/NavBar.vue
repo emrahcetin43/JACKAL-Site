@@ -9,13 +9,13 @@
       <span>::</span>
       <router-link to="/report">Report Bug</router-link>
       <span>::</span>
-      <a href="https://jackal-wiki.notion.site/jackal-wiki/JACKAL-Wiki-02cf967e0a10475983823645238b8852">Wiki</a>
+      <a href="https://jackal-wiki.notion.site/jackal-wiki/JACKAL-Wiki-02cf967e0a10475983823645238b8852" target="_blank">Wiki</a>
       <span>::</span>
-      <a href="https://discord.gg/5GKym3p6rj">Discord</a>
+      <a href="https://discord.gg/5GKym3p6rj" target="_blank">Discord</a>
       <span>::</span>
-      <a href="https://twitter.com/JACKAL_DAO">Twitter</a>
-      <span>::</span>
-      <a href="https://forms.gle/zxKHB4P26GzFRQg16">Alpha Signup</a>
+      <a href="https://twitter.com/JACKAL_DAO" target="_blank">Twitter</a>
+<!--      <span>::</span>-->
+<!--      <a href="https://forms.gle/zxKHB4P26GzFRQg16">Alpha Signup</a>-->
     </div>
 <!--    <div class="socials">-->
 <!--      <div class="icon discord">-->

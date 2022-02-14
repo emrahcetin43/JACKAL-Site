@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <h1>Alpha Feb 14 2022</h1>
+    <h1>Alpha : : <a href="https://alpha.jackaldao.com" target="_blank">NOW LIVE!</a></h1>
   </div>
+
 </template>
 
 <script>
