@@ -8,6 +8,11 @@
         <input type="text" name="wallet" />
       </p>
       <p>
+        <label>Discord Name (Optional):</label>
+        <br />
+        <input type="text" name="dname" />
+      </p>
+      <p>
         <label>Alpha Version:</label>
         <br />
         <input type="text" name="version" />
