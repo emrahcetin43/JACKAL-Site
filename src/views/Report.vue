@@ -13,7 +13,7 @@
       <p>
         <label>SCRT Wallet Address:</label>
         <br />
-        <input type="text" name="wallet" />
+        <input type="text" name="wallet" required />
       </p>
       <p>
         <label>Discord Name (Optional):</label>
@@ -23,17 +23,17 @@
       <p>
         <label>Alpha Version:</label>
         <br />
-        <input type="text" name="version" />
+        <input type="text" name="version" required />
       </p>
       <p>
         <label>Browser Used:</label>
         <br />
-        <input type="text" name="browser" />
+        <input type="text" name="browser" required />
       </p>
       <p>
         <label>Details of Issue:</label>
         <br />
-        <textarea name="desc"></textarea>
+        <textarea name="desc" required />
       </p>
       <p>
         <button type="submit">Submit Report</button>
@@ -69,6 +69,9 @@ textarea {
   resize: none;
   height: 200px;
   width: 350px;
+}
+:required {
+  border: 1px dashed red;
 }
 
 </style>
