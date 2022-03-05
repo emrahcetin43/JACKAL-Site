@@ -1,32 +1,12 @@
 <template>
   <div class="bar">
     <div class="nav">
-      <router-link to="/">Home</router-link>
+      <a href="https://jackaldao.com">Home</a>
       <span>::</span>
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Report Bug</router-link>
       <span>::</span>
       <router-link to="/testnet">Keplr Testnet</router-link>
-      <span>::</span>
-      <router-link to="/report">Report Bug</router-link>
-      <span>::</span>
-      <a href="https://jackal-wiki.notion.site/jackal-wiki/JACKAL-Wiki-02cf967e0a10475983823645238b8852" target="_blank">Wiki</a>
-      <span>::</span>
-      <a href="https://discord.gg/5GKym3p6rj" target="_blank">Discord</a>
-      <span>::</span>
-      <a href="https://twitter.com/JACKAL_DAO" target="_blank">Twitter</a>
-<!--      <span>::</span>-->
-<!--      <a href="https://forms.gle/zxKHB4P26GzFRQg16">Alpha Signup</a>-->
     </div>
-<!--    <div class="socials">-->
-<!--      <div class="icon discord">-->
-<!--        <div class="tooltip">Discord</div>-->
-<!--        <span><i class="fa-brands fa-discord"></i></span>-->
-<!--      </div>-->
-<!--      <div class="icon twitter">-->
-<!--        <div class="tooltip">Twitter</div>-->
-<!--        <span><i class="fa-brands fa-twitter"></i></span>-->
-<!--      </div>-->
-<!--    </div>-->
   </div>
 </template>
 
