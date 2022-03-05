@@ -5,7 +5,7 @@
       <span>::</span>
       <router-link to="/">Report Bug</router-link>
       <span>::</span>
-      <router-link to="/testnet">Keplr Testnet</router-link>
+      <router-link to="/add">Keplr Testnet</router-link>
     </div>
   </div>
 </template>
