@@ -2,10 +2,6 @@
   <div class="bar">
     <div class="nav">
       <a href="https://jackaldao.com">Home</a>
-      <span>::</span>
-      <router-link to="/">Report Bug</router-link>
-      <span>::</span>
-      <router-link to="/add">Keplr Testnet</router-link>
     </div>
   </div>
 </template>
